@@ -1,4 +1,4 @@
-export interface ServerProfile {
+export interface User {
     userId: string;
     identifier: string;
     firstName: string;
