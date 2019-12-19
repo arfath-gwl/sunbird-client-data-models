@@ -1,6 +1,6 @@
 {
   "name": "sunbird-client-data-models",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Type definitions and models for Sunbird platform clients",
   "main": "dist/index.js",
   "scripts": {
