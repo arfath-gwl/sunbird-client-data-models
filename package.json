@@ -2,8 +2,19 @@
   "name": "sunbird-client-data-models",
   "version": "1.0.0",
   "description": "Type definitions and models for Sunbird platform clients",
-  "main": "dist/index.ts",
-  "scripts": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production webpack --verbose true --progress true --cache false"
+  },
+  "dependencies": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.12.0",
+    "ts-loader": "^5.3.2",
+    "typescript": "2.9.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.3.10"
+  }
 }
